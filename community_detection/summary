@@ -1,0 +1,12 @@
+summary of my thesis:
+Communities are one of the most important aspects of complex networks. 
+Community’s structure refers to the nodes in the same community that have dense connections.
+There are lots of methods that exist to find communities, most of the existing methods attend to find non-overlapping
+community detections, whereas some of them focus on addressing the task of overlapping community detections. 
+In this paper we have proposed an approach is based on optimization. At first, all potential overlapping nodes have been found. 
+Then the problem of community detection is formulated as an optimization problem,
+Galaxy-based Search Algorithm uses local search (modified Hill-Climbing) and chaotic move to find better solution, 
+in this essay the algorithm optimizes  normalized mutual information(NMI). 
+Finally, we compare this method with existing methods,
+we have used GN networks and real-world networks to evaluate our approach,
+this experiment is a significant improvement on the problem of community detection.
