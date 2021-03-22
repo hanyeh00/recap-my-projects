@@ -12,9 +12,13 @@ public class Program
     var myclass= new Person();
     myclass.Name="Bahar";
     myclass. Introduce();
+          var sumi = new calcul();
+          result=sumi.add(3,4);
+          Console.WriteLine(result);
    }
    }
    // we cannot access to static function by creating object....
-   // ctr+f5
+   // ctr+f5== run application
    //alt+ enter= resharper
+     // 
    }
