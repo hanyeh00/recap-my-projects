@@ -6,7 +6,7 @@ namespace conditional
 {     
    public enum Season
    {
-       Spring, summer, Automn, Winter
+       Spring, summer, Autumn, Winter
       
    }
 
