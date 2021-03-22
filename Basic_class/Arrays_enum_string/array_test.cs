@@ -25,6 +25,10 @@ Console.WriteLine(flags);
 //stringFormat
 string name="John";
 string list=string.join("," ,number2);
+var text="hello,my,Ditel";
+var array1=new string[3];
+array1= text.Split(',');
+Console.WriteLine(array1[0]); //hello
 // strings are immutable
 var firstname="john";
 var lastname="smith";
