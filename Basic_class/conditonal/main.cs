@@ -10,11 +10,12 @@
        switch (season)
        {
        case Season.Spring:
-       Console.WriteLine(" It is spring");
+       case Season.summer:
+        Console.WriteLine(" you got promotion");
         break;
-          case Season.summer:
-       Console.WriteLine(" It is summer");
-        break;
+         
+         
+         
           case Season.Autumn:
        Console.WriteLine(" It is Autumn");
         break;
