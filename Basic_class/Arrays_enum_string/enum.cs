@@ -13,5 +13,7 @@ public class Program
 	{
 	  var method= season.Winter;
 		Console.WriteLine((int)(method)); // we should write int before variable.
+          var methodId=5;
+		Console.WriteLine((season) methodId);
 	}
 }
