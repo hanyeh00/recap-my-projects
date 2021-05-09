@@ -23,15 +23,18 @@ algorithm that we apply to settings where the **label** (NOt Prediction) y is **
 when it's either 0 or 1.
 
 ## Hypothesis Representation:
-- transform hθ(x)h_\theta (x)hθ​(x) to satisfy 0≤hθ(x)≤10 \leq h_\theta (x) \leq 10≤hθ​(x)≤1
+- transform hθ(x)
 - hθ(x)=g(θTx)    z=θTx   g(z)=11+e−z  between 0 and 1
 -  function g(z), shown here, maps any real number to the (0, 1)
 - hθ​(x) will give us the probability (احتمالات اینجا مهمه(
 
 
 ## Decision Boundary:
-z=0,e0=1⇒g(z)=1/2z→∞,e−∞→0⇒g(z)=1z→−∞,e∞→∞⇒g(z)=0
+![image](https://user-images.githubusercontent.com/44142415/117577178-efb89d00-b0fd-11eb-9926-cc9dba1519ff.png)
+![image](https://user-images.githubusercontent.com/44142415/117577192-019a4000-b0fe-11eb-89c0-d0e8002527bf.png)
+
 - The decision boundary is the line that separates the area where y = 0 and where y = 1. It is created by our hypothesis function.
-- 5−10y=1if5+(−1)x1+0x2≥05−x1≥0−x1≥−5x1≤5
+
+## cost function
 - 
 
