@@ -9,8 +9,8 @@
 ## Classification:
 ![image](https://user-images.githubusercontent.com/44142415/117564668-6f287b00-b0c2-11eb-8388-75083290c203.png)
 - 0 is absent of something= negative class
-- - 1 is presence of something= posetive class
-### how do we develop classification problems?
+- 1 is presence of something= posetive class
+### How Do We Develop Classification Problems?
 - applying linear regression to a classification problem often isn't a great idea
 - For classification we know that y is either zero or one. But if you are using linear regression where the **hypothesis** 
 can output values that are much larger than 1 or less than 0,
