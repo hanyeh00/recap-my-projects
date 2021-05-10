@@ -36,5 +36,11 @@ when it's either 0 or 1.
 - The decision boundary is the line that separates the area where y = 0 and where y = 1. It is created by our hypothesis function.
 
 ## cost function
-- 
+- define how to fit the parameters of theta for
+the logistic compression.
+In particular,  the optimization objective, or
+the cost function that we'll use to **fit the parameters**. 
+![image](https://user-images.githubusercontent.com/44142415/117646774-69559700-b1a1-11eb-8cd9-582ca71b6617.png)
 
+-
+-
