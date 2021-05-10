@@ -34,6 +34,7 @@ when it's either 0 or 1.
 ![image](https://user-images.githubusercontent.com/44142415/117577192-019a4000-b0fe-11eb-89c0-d0e8002527bf.png)
 
 - The decision boundary is the line that separates the area where y = 0 and where y = 1. It is created by our hypothesis function.
+- 
 
 ## cost function
 - define how to fit the parameters of theta for
@@ -44,3 +45,7 @@ the cost function that we'll use to **fit the parameters**.
 
 -
 -
+## advanced optimisation
+-"Conjugate gradient", "BFGS", and "L-BFGS" 
+- are more sophisticated, faster ways to optimize θ 
+- 
