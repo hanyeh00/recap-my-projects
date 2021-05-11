@@ -42,6 +42,7 @@ the logistic compression.
 In particular,  the optimization objective, or
 the cost function that we'll use to **fit the parameters**. 
 ![image](https://user-images.githubusercontent.com/44142415/117646774-69559700-b1a1-11eb-8cd9-582ca71b6617.png)
+-![image](https://user-images.githubusercontent.com/44142415/117786247-8b5f2000-b25a-11eb-9377-756f2b120719.png)
 
 -
 -
