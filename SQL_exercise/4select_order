@@ -1,0 +1,4 @@
+select phone
+from customer /*table*/
+where 
+FIRSTNAME='hakim';
