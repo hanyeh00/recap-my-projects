@@ -1,0 +1,11 @@
+-- return all film that are available in store2 more than 3
+
+
+select * from film
+WHERE
+film_id in(select film_id
+from inventory
+where store_id=2
+group by film_id
+having count(*)>3
+)
