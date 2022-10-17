@@ -1,0 +1,10 @@
+select last_name, first_name from customer
+where customer_id in (select customer_id from customer
+join  address
+on address.last_update =customer.last_update is not null
+where address.district='California')
+
+AND
+customer_id in (select customer_id from payment
+					  group by customer_id
+                      having sum(amount)>100)
