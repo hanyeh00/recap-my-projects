@@ -18,3 +18,32 @@ from customer
 --insert into customer (last_name,first_name,email) values ('Samouel','Jeffer','SAmouel.Jeffer@gmail.com')
 --insert into customer (last_name,first_name,email) values ('Joe','Sara','Joe.Sara@gmail.com')
 --insert into customer (last_name,first_name,email) values ('Goni','Smi','Goni.Smi@gmail.com')
+
+
+SELECT
+amount
+from payment
+
+where amount> (select avg(amount) from payment)
+
+--create table payment( payment_id int,staff_id int, amount int,payment_data int )
+
+
+--find payment of customer name is adam
+SELECT
+
+payment
+from payment
+where customer_id=(select customer_id from customer where first_name='ADAM' )
+
+--find payment of customerS with name start with A
+SELECT
+
+payment
+from payment
+where customer_id in (select customer_id from customer where first_name like 'A%' )
+
+
+
+
+
