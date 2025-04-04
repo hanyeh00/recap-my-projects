@@ -1,7 +1,7 @@
-# Community Detection in Networks
+#Community Detection in Networks
 Community detection is a fundamental task in network analysis that aims to identify groups of nodes that are more densely connected with each other than with the rest of the network. This has applications in social networks, biology, recommendation systems, and more.
 
-## Overview
+##Overview
 Communities are one of the most important aspects of complex networks. 
 Community’s structure refers to the nodes in the same community that have dense connections.
 There are lots of methods that exist to find communities, most of the existing methods attend to find non-overlapping
