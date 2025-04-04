@@ -1,4 +1,7 @@
-summary of my thesis:
+# Community Detection in Networks
+Community detection is a fundamental task in network analysis that aims to identify groups of nodes that are more densely connected with each other than with the rest of the network. This has applications in social networks, biology, recommendation systems, and more.
+
+## Overview
 Communities are one of the most important aspects of complex networks. 
 Community’s structure refers to the nodes in the same community that have dense connections.
 There are lots of methods that exist to find communities, most of the existing methods attend to find non-overlapping
@@ -10,3 +13,60 @@ in this essay the algorithm optimizes  normalized mutual information(NMI).
 Finally, we compare this method with existing methods,
 we have used GN networks and real-world networks to evaluate our approach,
 this experiment is a significant improvement on the problem of community detection.
+
+## Features
+- Implements popular **community detection algorithms**
+- Works on **real-world and synthetic networks**
+- **Scalable and efficient** for large graphs
+- Supports **graph visualization** for detected communities
+
+## Algorithms Used
+- **Louvain Method** (Modularity Optimization)
+- **Girvan-Newman Algorithm** (Edge Betweenness)
+- **Label Propagation Algorithm (LPA)**
+- **Spectral Clustering**
+- **Infomap Algorithm**
+
+## Installation
+Clone the repository and install dependencies:
+```bash
+git clone https://github.com/your-username/community-detection.git
+cd community-detection
+pip install -r requirements.txt
+```
+
+## Usage
+### Example: Detecting communities in a graph
+```python
+import networkx as nx
+from community import community_louvain
+import matplotlib.pyplot as plt
+
+# Create a graph
+G = nx.karate_club_graph()
+
+# Compute the best partition
+partition = community_louvain.best_partition(G)
+
+# Visualize the result
+nx.draw(G, node_color=list(partition.values()), with_labels=True, cmap=plt.cm.jet)
+plt.show()
+```
+
+## Dataset
+This repository supports community detection on:
+- **Zachary's Karate Club** (built-in NetworkX dataset)
+- **Real-world social network graphs**
+- **Custom input graphs** (Edge list, adjacency matrix, etc.)
+
+## Applications
+- **Social network analysis** (Finding user communities)
+- **Biological networks** (Gene interactions, protein networks)
+- **Fraud detection** (Uncovering hidden connections)
+- **Recommender systems** (Identifying user behavior groups)
+
+## Contributing
+We welcome contributions! Feel free to submit a pull request or open an issue.
+
+
+
